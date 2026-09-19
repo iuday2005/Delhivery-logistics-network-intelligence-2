@@ -1,0 +1,2 @@
+﻿segment_count	trip_count	active_corridor_count	on_time_delivery_rate_pct	mean_delay_per_corridor_minutes	mean_delay_per_segment_minutes	sla_breach_rate_pct	sla_breach_count	projected_sla_cost_inr
+142502	14817	2806	9.23	28.63	18.92	31.85	45392	6808800

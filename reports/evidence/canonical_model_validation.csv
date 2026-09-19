@@ -1,0 +1,6 @@
+model,mae_min,rmse_min,r2,within_15_pct,bias_min,cv_mae_mean_min,cv_mae_std_min,notes
+OSRM baseline,161.5,,,5.5,,,,Routing estimate baseline from phase 3/5 notebook outputs.
+RF Baseline (Set C),30.9461,74.573,0.9816,77.6427,-0.7828,,,Same validation split; route_type-stratified trip-level holdout.
+RF + Graph Centrality (Set D),30.2888,73.4359,0.9822,78.2506,-0.6466,,,Same validation split; route_type-stratified trip-level holdout.
+RF + Centrality + Node2Vec Embeddings (Set E),29.8117,73.1315,0.9823,78.183,-1.018,,,Same validation split; route_type-stratified trip-level holdout.
+5-fold CV on best graph model,,,,,,28.78,0.51,Canonical notebook output from phase4.ipynb; exported here to avoid rerunning expensive CV during dashboard evidence generation.

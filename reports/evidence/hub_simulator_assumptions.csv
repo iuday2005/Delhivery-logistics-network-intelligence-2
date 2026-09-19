@@ -1,0 +1,14 @@
+assumption,value,evidence_type,notes
+sample_trips,14804,observed,Cleaned trip count used in modeling and simulation.
+revenue_at_risk_inr,2116800,derived,Phase 5 annualized severe-delay exposure.
+potential_recovery_inr,395985,derived,Phase 5 top-hub recoverable value estimate.
+avg_shipment_value_inr,2000,assumed,Phase 5 conservative shipment value assumption.
+sla_penalty_rate,0.05,assumed,Phase 5 penalty rate per SLA breach.
+phase5_annual_multiplier,12,assumed,Phase 5 sample-to-annual multiplier.
+hub_sim_annual_multiplier,52,assumed,Hub simulator weekly-sample annualization assumption.
+hub_sim_revenue_per_breach_inr,150,assumed,Equivalent penalty used in hub simulator recovery calculation.
+canonical_intervention_pct,0.30,assumed,Primary dashboard scenario: 30% hub delay reduction.
+best_hub_by_recovery,IND421302AAG,derived,Best 30% intervention scenario in hub simulator.
+best_hub_recovery_inr,454385,derived,Recovery from the highest-value single hub scenario.
+top5_hub_recovery_inr,1487756,derived,Total recovery from all simulated top hubs at 30% delay reduction.
+intervention_independence,true,assumed,Hub simulator treats interventions independently; no interaction effects modeled.

@@ -1,0 +1,3 @@
+model,mae_min,rmse_min,r2,within_15_pct,bias_min,cv_mae_mean_min,cv_mae_std_min,notes,wilcoxon_statistic_vs_retrained_baseline,wilcoxon_p_value_vs_retrained_baseline,mae_lift_min_vs_retrained_baseline
+RF baseline retrained for leakage-safe comparison,31.145365,74.752369,0.981535,77.136103,-0.809,,,Trip split first; no graph features.,,,
+Leakage-safe graph centrality RF,30.232576,72.71116,0.98253,78.183046,-1.130519,,,Graph rebuilt from training trips only; validation hubs mapped to train-window graph features.,2089904.0,0.027257,0.912789

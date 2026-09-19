@@ -1,0 +1,2 @@
+test_name,comparison,sample_size,statistic,p_value,alpha,conclusion,evidence_scope
+Wilcoxon signed-rank test,RF baseline vs graph-enhanced RF,2961,2066088.0,0.006534,0.05,Graph model has statistically different paired absolute errors on the same validation trips.,paired absolute errors on route_type-stratified trip-level validation split

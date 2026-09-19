@@ -1,0 +1,9 @@
+﻿month_start	delay_severity_cohort	on_time_corridors_this_month	retained_on_time_corridors_next_month	on_time_corridor_retention_pct
+2018-09-01	critical	0	0	NULL
+2018-09-01	high	1	0	0.00
+2018-09-01	low	73	24	32.88
+2018-09-01	medium	166	29	17.47
+2018-10-01	critical	0	0	NULL
+2018-10-01	high	1	0	0.00
+2018-10-01	low	75	0	0.00
+2018-10-01	medium	163	0	0.00

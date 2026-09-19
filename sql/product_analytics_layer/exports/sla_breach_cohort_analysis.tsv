@@ -1,0 +1,5 @@
+﻿delay_severity_cohort	corridor_count	segment_count	trip_count	sla_breach_count	breach_rate_pct	avg_delay_minutes	estimated_recovery_cost_inr
+critical	1213	28550	9627	17809	62.38	48.82	2671350
+high	765	55109	8338	17338	31.46	17.09	2600700
+medium	734	57127	7746	10190	17.84	10.46	1528500
+low	94	1716	657	55	3.21	3.98	8250

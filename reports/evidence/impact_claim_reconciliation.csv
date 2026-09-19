@@ -1,0 +1,6 @@
+claim,value,source,status,defensibility_note
+Estimated revenue at risk from severe delays,INR 2116800,phase5_checkpoint,canonical,"Derived from severe delayed trips, shipment value, penalty rate, and annual multiplier assumptions."
+Potential recovery from targeted interventions,INR 395985,phase5_checkpoint,canonical,Use as conservative portfolio headline; depends on top-hub contribution and recovery rate.
+Best single hub intervention recovery,INR 454385,hub_simulation_results,scenario,30% delay-reduction scenario for one hub; keep separate from phase 5 conservative recovery.
+Top simulated hubs recovery at 30% delay reduction,INR 1487756,hub_simulation_results,scenario,Scenario sum across simulated hubs; do not present as guaranteed or realized recovery.
+SQL top-20 lane recovery if fixed,INR 697515,sql/product_analytics_layer/exports/top20_lane_recovery_summary.tsv,supporting,SQL lane-backlog estimate uses INR 150 per breach and 70% fix effectiveness.
